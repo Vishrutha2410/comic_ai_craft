@@ -1,0 +1,34 @@
+{
+  "panels": [
+    {
+      "panel_number": 1,
+      "title": "Late Night Studies",
+      "scene_description": "Ananya, a young college student, is working late at her desk in a darkened university computer laboratory, illuminated only by the neon glow of computer monitors.",
+      "image_prompt": "A cinematic, colorful comic book style scene of Ananya, a young Indian female college student with glasses, sitting at a computer terminal in a modern, dark college computer lab at night. The room is filled with rows of desks, blinking server racks, and is bathed in a cool blue and purple ambient light."
+    },
+    {
+      "panel_number": 2,
+      "title": "An Unusual Noise",
+      "scene_description": "Ananya startles, turning her head toward a half-open metal storage closet at the back of the lab where a strange, golden light is leaking out.",
+      "image_prompt": "Cinematic comic book panel. Close-up of Ananya looking surprised, her head turned toward the dark background of the lab. Behind her, a metal closet door is slightly ajar, emitting a mysterious, warm golden glow that contrasts with the blue room."
+    },
+    {
+      "panel_number": 3,
+      "title": "Into the Shadows",
+      "scene_description": "Ananya cautiously approaches the storage closet, reaching out a hand to push the door fully open.",
+      "image_prompt": "Ananya from behind as she cautiously approaches and pushes open a tall metal storage closet door in the dark computer lab. The intense golden light from inside the closet illuminates her silhouette, creating a sense of mystery and suspense. Cinematic comic art."
+    },
+    {
+      "panel_number": 4,
+      "title": "The Discovery",
+      "scene_description": "Inside the closet, Ananya discovers a sleek, deactivated humanoid robot slumped among old servers. Its chest core suddenly begins to pulse with a soft blue light.",
+      "image_prompt": "A medium shot looking into the closet. A sleek, white and silver futuristic humanoid robot sits deactivated amidst dust and old computer parts. The circular core on its chest starts to pulse with a vibrant blue light. Colorful, detailed comic book style."
+    },
+    {
+      "panel_number": 5,
+      "title": "Hello, World",
+      "scene_description": "The robot's digital eyes light up, and it looks up at a mesmerized Ananya, who reaches her hand out in wonder.",
+      "image_prompt": "A dramatic close-up of the robot's face as its digital blue eyes boot up and glow. In the foreground, Ananya's hand reaches out toward it, her face filled with awe and excitement. High-contrast, cinematic, colorful comic book art."
+    }
+  ]
+}

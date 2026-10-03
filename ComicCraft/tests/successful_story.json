@@ -1,0 +1,29 @@
+{
+  "panels": [
+    {
+      "panel_number": 1,
+      "narration": "Long after the campus has gone quiet, Ananya burns the midnight oil in the university's advanced computing lab.",
+      "dialogue": "Just a few more lines of code, and this algorithm should finally work..."
+    },
+    {
+      "panel_number": 2,
+      "narration": "A sudden, low hum breaks the silence, drawing her attention toward the forgotten storage units in the back.",
+      "dialogue": "What on earth? Did someone leave a server rack running?"
+    },
+    {
+      "panel_number": 3,
+      "narration": "Stepping away from her desk, she moves into the deeper shadows where the air feels charged with an unfamiliar energy.",
+      "dialogue": "Hello? Is someone back there?"
+    },
+    {
+      "panel_number": 4,
+      "narration": "Tucked away behind obsolete hardware lies a masterpiece of alien engineering—stirring to life.",
+      "dialogue": "No way... this technology isn't from any lab on this planet."
+    },
+    {
+      "panel_number": 5,
+      "narration": "As the machine opens its glowing optics, a new chapter of discovery begins.",
+      "dialogue": "Initiating startup sequence. Greeting, user."
+    }
+  ]
+}

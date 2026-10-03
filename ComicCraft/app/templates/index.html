@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComicCraft — Create Your Comic</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="page-bg">
+<main class="container">
+    <section class="hero">
+        <div class="badge">✨ AI COMIC CREATOR</div>
+        <h1>Comic<span>Craft</span></h1>
+        <p>Turn a simple idea into a five-panel illustrated comic.</p>
+    </section>
+
+    {% if error %}
+    <div class="alert error">
+        <strong>Generation failed.</strong>
+        <p>{{ error }}</p>
+    </div>
+    {% endif %}
+
+    <section class="card">
+        <form action="/generate" method="post" id="comic-form">
+            <label for="story_prompt">Story Prompt</label>
+            <textarea id="story_prompt" name="story_prompt" rows="5"
+                placeholder="Example: A brave fox discovers a glowing door in an enchanted forest."
+                required></textarea>
+
+            <div class="grid two">
+                <div>
+                    <label for="character_name">Main Character</label>
+                    <input id="character_name" name="character_name"
+                        placeholder="Luna" required>
+                </div>
+                <div>
+                    <label for="setting">Setting</label>
+                    <input id="setting" name="setting"
+                        placeholder="Enchanted forest" required>
+                </div>
+            </div>
+
+            <div class="grid two">
+                <div>
+                    <label for="tone">Story Tone</label>
+                    <select id="tone" name="tone">
+                        <option>dramatic</option>
+                        <option>funny</option>
+                        <option>light-hearted</option>
+                        <option>poetic</option>
+                        <option>mysterious</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="art_style">Art Style</label>
+                    <select id="art_style" name="art_style">
+                        <option>comic book</option>
+                        <option>anime</option>
+                        <option>pixel art</option>
+                        <option>watercolor</option>
+                        <option>realistic</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="primary" type="submit" id="submit-button">
+                <span id="button-text">Create My Comic</span>
+                <span id="spinner" class="spinner hidden"></span>
+            </button>
+
+            <p class="hint">
+                Generation can take a few minutes because the app creates five images.
+            </p>
+        </form>
+    </section>
+</main>
+
+<script>
+const form = document.getElementById("comic-form");
+const button = document.getElementById("submit-button");
+const text = document.getElementById("button-text");
+const spinner = document.getElementById("spinner");
+
+form.addEventListener("submit", () => {
+    button.disabled = true;
+    text.textContent = "Creating your comic...";
+    spinner.classList.remove("hidden");
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+This project is an educational implementation based on the supplied ComicCraft project documentation.
+
+Third-party services and models have their own terms and licenses. Check the applicable terms for Google Gemini, Hugging Face, and any selected image model before deployment.
